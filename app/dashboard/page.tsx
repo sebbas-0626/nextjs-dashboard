@@ -48,7 +48,7 @@ export default async function Page() {
       </div>
       {/* cards dashboard */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-6">
-        <Card title="Sample" value="0" type="pending" />
+        <Card title="total de invoices" value="10" type="pending" />
         {/* Puedes agregar más tarjetas aquí */}
       </div>
     </main>
