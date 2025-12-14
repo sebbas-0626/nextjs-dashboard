@@ -35,6 +35,7 @@ export default async function InvoicesPage({
 
   return (
     <main>
+      {/* Breadcrumbs component para la navegación */}
       <Breadcrumbs
         breadcrumbs={[
           { label: 'Dashboard', href: '/dashboard' },
